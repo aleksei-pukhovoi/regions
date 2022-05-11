@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `REGIONS`(
+    `id`              BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `name`            VARCHAR(100) NOT NULL,
+    `short_name`      VARCHAR(100) NOT NULL
+);
